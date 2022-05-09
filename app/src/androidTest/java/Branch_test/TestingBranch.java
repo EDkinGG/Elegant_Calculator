@@ -15,10 +15,15 @@ public class TestingBranch {
 
     public String getBloodGrp() {
         return BloodGrp;
+
     }
 
     public int getId() {
         return id;
+    }
+
+    public void setStreetNo(int streetNo) {
+        this.streetNo = streetNo;
     }
 
     public String getName() {
