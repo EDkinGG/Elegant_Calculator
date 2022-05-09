@@ -4,17 +4,18 @@ public class TestingBranch {
     String name;
     int id;
     float marks;
-    int streetNo;
+    String BloodGrp;
 
-    public TestingBranch(String name, int id, float marks, int streetNo) {
+    public TestingBranch(String name, int id, float marks, String bloodGrp) {
         this.name = name;
         this.id = id;
         this.marks = marks;
-        this.streetNo = streetNo;
+        BloodGrp = bloodGrp;
     }
 
-    public int getStreetNo() {
-        return streetNo;
+    public String getBloodGrp() {
+        return BloodGrp;
+
     }
 
     public int getId() {
@@ -43,5 +44,9 @@ public class TestingBranch {
 
     public void setMarks(float marks) {
         this.marks = marks;
+    }
+
+    public void setBloodGrp(String bloodGrp) {
+        BloodGrp = bloodGrp;
     }
 }
